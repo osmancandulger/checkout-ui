@@ -286,5 +286,14 @@ body {
   cursor: pointer;
   border-radius: 5px;
   color: #ffff;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.container .button-area button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 24px 24px -15px rgba(95, 130, 255, 0.45);
+          box-shadow: 0px 24px 24px -15px rgba(95, 130, 255, 0.45);
 }
 /*# sourceMappingURL=style.css.map */
