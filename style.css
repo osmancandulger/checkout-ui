@@ -173,4 +173,91 @@ body {
   font-size: 14px;
   font-weight: 200;
 }
+
+.container .card-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.container .card-section .card-num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 495px;
+  height: 74px;
+  border: 1px solid #5f82ff;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.container .card-section label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.container .card-section .row-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 495px;
+}
+
+.container .card-section .row-container fieldset {
+  border: none;
+}
+
+.container .card-section .row-container .expiration-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 220px;
+  height: 74px;
+  border: 1px solid #5f82ff;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.container .card-section .row-container .cvv-box {
+  width: 258px;
+  height: 74px;
+  border: 1px solid #5f82ff;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.container .card-section .row-container .cvv-box label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.container .sub-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.container .sub-text p {
+  width: 533px;
+  height: 48px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */

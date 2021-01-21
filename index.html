@@ -48,7 +48,26 @@
 
 
       </div>
-      <div class="card-section"></div>
+         <div class="card-section">
+         <form name="credit-card" method="POST">
+        <label for="card-number">Card number</label>
+        <input class="card-num" type="text" name="card-number" id="card-number" placeholder="1234  1234   1234   1234">
+        <div class="row-container">
+        <fieldset class="expiration">
+        <label for="expiration-date">Expiration date</label>
+          <input class="expiration-box" type="text" name="expiration-date" id="expiration-date" placeholder="MM/YY">
+        </fieldset>
+        <fieldset class="cvv">
+          <label for="security-code">Security code</label>
+          <input class="cvv-box" type="text" name="security-code" id="security-code" placeholder="123">
+        </fieldset>
+      </div>
+    </div>
+    <div class="sub-text">
+      <p>By subscribing you agree to our Use of Service. Your payment method will be charged with $50  and you’ll have access to all locked features until 20 Jan 2022.</p>
+    </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
